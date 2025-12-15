@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempo Analytics | HQ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #000; color: #fff; font-family: 'Space Grotesk', sans-serif; overflow-x: hidden; }
+        
+        /* The Massive Nav Bar */
+        .navbar { border-bottom: 1px solid #333; padding: 20px; background: black; }
+        .navbar-brand { font-size: 2rem; font-weight: bold; letter-spacing: -1px; color: #1DB954 !important; }
+        .nav-link { font-size: 1.1rem; text-transform: uppercase; color: #888 !important; margin-left: 20px; transition: 0.3s; }
+        .nav-link:hover, .nav-link.active { color: #fff !important; text-shadow: 0 0 10px rgba(255,255,255,0.5); }
+
+        /* Visuals */
+        .hero { height: 85vh; display: flex; align-items: center; justify-content: center; text-align: center; 
+                background: radial-gradient(circle at center, #1a1a1a 0%, #000 70%); }
+        .hero h1 { font-size: 6rem; line-height: 0.9; margin-bottom: 20px; }
+        .hero span { color: #1DB954; }
+        
+        /* The "Portal" Buttons */
+        .portal-grid { display: grid; grid-template-columns: repeat(3, 1fr); height: 15vh; border-top: 1px solid #333; }
+        .portal-btn { 
+            background: #111; color: #fff; text-decoration: none; display: flex; flex-direction: column; 
+            align-items: center; justify-content: center; border-right: 1px solid #333; transition: 0.4s;
+        }
+        .portal-btn:hover { background: #1DB954; color: #000; }
+        .portal-btn h3 { font-size: 1.5rem; margin: 0; }
+        .portal-btn p { font-size: 0.9rem; opacity: 0.7; margin-top: 5px; }
+
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">TEMPO.</a>
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="emotional.html">Emotion</a></li>
+                    <li class="nav-item"><a class="nav-link" href="structural.html">Structure</a></li>
+                    <li class="nav-item"><a class="nav-link" href="market.html">Market</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div>
+            <p style="letter-spacing: 5px; color: #888;">INTRODUCTION TO COMPUTING FALL 2025 PROJECT</p>
+            <h1>THE DEATH <br> OF <span>MELODY.</span></h1>
+            <p class="lead mt-4" style="max-width: 600px; margin: 0 auto; color: #aaa;">
+                A multi-page investigation into the collapse of happiness, length, and dynamic range in modern pop music.
+            </p>
+        </div>
+    </div>
+<div class="container py-5" style="background-color: #111; border-top: 1px solid #333;">
+        <div class="row mb-5 text-center">
+            <div class="col-12">
+                <h2 style="font-family: 'Space Grotesk', sans-serif; font-size: 3.5rem;">THE  SCOPE  OF ANALYSIS</h2>
+                <p style="font-family: 'Space Grotesk', sans-serif;">We analyzed 2,000 hits to answer these 9 critical questions.</p>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <h4 style="color: #1DB954; border-bottom: 2px solid #1DB954; padding-bottom: 10px; margin-bottom: 20px;">01. EMOTION</h4>
+                <ul class="list-unstyled" style="color: #bbb; line-height: 1.8;">
+                    <li class="mb-3"><strong>Q1:</strong> Is pop music statistically becoming sadder?</li>
+                    <li class="mb-3"><strong>Q2:</strong> Have "Minor Keys" (Sad tones) overtaken "Major Keys"?</li>
+                    <li class="mb-3"><strong>Q3:</strong> Is the "Club Banger" dead? (Energy vs. Acoustics)</li>
+                </ul>
+                <a href="emotional.html" class="btn btn-outline-light btn-sm mt-2">See The Answers &rarr;</a>
+            </div>
+
+            <div class="col-md-4">
+                <h4 style="color: #1DB954; border-bottom: 2px solid #1DB954; padding-bottom: 10px; margin-bottom: 20px;">02. STRUCTURE</h4>
+                <ul class="list-unstyled" style="color: #bbb; line-height: 1.8;">
+                    <li class="mb-3"><strong>Q4:</strong> Are songs shrinking to fit the "TikTok" attention span?</li>
+                    <li class="mb-3"><strong>Q5:</strong> Is the "Loudness War" destroying audio quality?</li>
+                    <li class="mb-3"><strong>Q6:</strong> Why do producers fear tempos outside of 120 BPM?</li>
+                </ul>
+                <a href="structural.html" class="btn btn-outline-light btn-sm mt-2">See The Answers &rarr;</a>
+            </div>
+
+            <div class="col-md-4">
+                <h4 style="color: #1DB954; border-bottom: 2px solid #1DB954; padding-bottom: 10px; margin-bottom: 20px;">03. MARKET</h4>
+                <ul class="list-unstyled" style="color: #bbb; line-height: 1.8;">
+                    <li class="mb-3"><strong>Q7:</strong> Do a handful of artists control the entire industry?</li>
+                    <li class="mb-3"><strong>Q8:</strong> Is "Singing" being replaced by "Rapping"?</li>
+                    <li class="mb-3"><strong>Q9:</strong> Does "Explicit" content sell better than "Clean"?</li>
+                </ul>
+                <a href="market.html" class="btn btn-outline-light btn-sm mt-2">See The Answers &rarr;</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="portal-grid">
+        <a href="emotional.html" class="portal-btn">
+            <h3>01. EMOTION</h3>
+            <p>Is music getting sadder?</p>
+        </a>
+        <a href="structural.html" class="portal-btn">
+            <h3>02. STRUCTURE</h3>
+            <p>Length & Loudness Analysis</p>
+        </a>
+        <a href="market.html" class="portal-btn" style="border-right: none;">
+            <h3>03. MARKET</h3>
+            <p>Artist & Genre Trends</p>
+        </a>
+    </div>
+
+</body>
+</html>
